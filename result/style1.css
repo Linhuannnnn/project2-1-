@@ -1,0 +1,93 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+/* 頁首標題 */
+header{
+  background-color: #c4c4c4;
+  padding: 1rem;
+  width: 100%;
+}
+
+header h1{
+  font-size: 2.5rem;
+}
+
+header h1 i{
+  font-size: 3rem;
+}
+
+/* 導覽列 */
+nav{
+  background-color: #312f2f;
+}
+
+nav ul{
+  display: flex;
+  padding-left: 1rem;
+  list-style-type: none;
+  flex-wrap: wrap; 
+}
+
+nav ul li{
+  /* padding: 0.25rem 0.75rem; */
+  display: flex;
+}
+
+nav ul li a{
+  padding: 0.25rem 0.75rem;
+  text-decoration: none;
+  color: #c4c4c4;
+  font-size: 1.25rem;
+
+}
+
+nav ul li a:hover{
+  /* color: yellow; */
+  background-color: yellow;
+  color: #312f2f;
+}
+
+/* main */
+main{
+  padding: 2rem;
+}
+
+main ul.agro{
+  list-style-type: none;
+}
+
+section{
+  margin-bottom: 40px;
+}
+
+main h1 {
+  font-size: 6rem;
+  float: left;
+}
+
+section.right{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+/* 
+#pic{
+  width: 60%;
+} */
+
+main h4{
+  font-weight: bold;
+}
+main p{
+  line-height: 1.5rem;
+}
+
+@media screen and (max-weight : 600px) {
+  #pic{
+    width: 100%;
+  }
+}
